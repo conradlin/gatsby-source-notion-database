@@ -1,4 +1,4 @@
-const Notabase = require("notabase")
+const Notabase = require("@conradlin/notabase")
 const genApiData = require('./src/genApiData')
 let nb = new Notabase()
 
