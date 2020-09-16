@@ -5,7 +5,7 @@
 ## Install
 
 ```
-yarn add gatsby-source-notion-database
+npm install @conradlin/gatsby-source-notion-database
 ```
 ## Config
 
