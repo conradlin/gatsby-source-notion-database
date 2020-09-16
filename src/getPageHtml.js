@@ -6,7 +6,7 @@ const getPageHtml = async (url) => {
     const page = await browser.newPage();
     await page.goto(url);
     await page.waitForSelector('#notion-app');
-    await page.waitFor(8000);
+    await page.waitFor(24000);
     const data = await page.evaluate(() => {
         // 图片链接转换
         document.querySelectorAll('div.notion-page-content  img').forEach(item => {
