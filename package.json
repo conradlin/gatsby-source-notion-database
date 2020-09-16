@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-source-notion-database",
-  "version": "0.6.9",
+  "name": "@conradlin/gatsby-source-notion-database",
+  "version": "0.7.2",
   "description": "Load data from Notion's database",
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,12 @@
   },
   "author": "",
   "license": "MIT",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/mayneyao/gatsby-source-notion-database/issues"
   },
   "homepage": "https://github.com/mayneyao/gatsby-source-notion-database#readme",
   "dependencies": {
-    "notabase": "0.7.0",
+    "@conradlin/notabase": "0.9.0",
     "p-limit": "^2.2.1",
     "puppeteer": "^1.19.0"
   },
