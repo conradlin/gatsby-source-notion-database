@@ -6,5 +6,4 @@
 
 ```
 npm install @conradlin/gatsby-source-notion-database
-
 ```
